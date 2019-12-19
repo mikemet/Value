@@ -1,4 +1,4 @@
 # Value
-Landing page
-Instruments: VSCode, GIMP.
-Technologies: html, css, bootstrap, flex
+Landing page.<br>
+Instruments: VSCode, GIMP.<br>
+Technologies: html, css, bootstrap, flex.
