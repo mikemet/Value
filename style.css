@@ -1,6 +1,14 @@
+html {
+    line-height: normal;
+    font-size: 1rem;
+}
+
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
-    /* min-width: 406px; */
+    min-width: 540px;
+    padding: 0;
+
+    color: #979797;
 }
 
 .clearfix::after {
@@ -27,9 +35,78 @@ body {
 
 .header-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
-.header-slider, .header-right {
-    display: inline-flexbox;
+.header-slider {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.header-right {
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.header-right-title {
+    display: flex;
+    align-items: center;
+    margin: 7.5rem 0 4.5rem 0;
+
+    font-size: 1.7rem;
+}
+
+.logo {
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.header-right p {
+    font-size: 1rem;
+}
+
+.header-btn {
+    background-color: #b9b9b9;
+    border-radius: 1rem;
+    width: 9rem;
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fefefe;
+}
+
+.header-btn:hover {
+    background-color: #35c144;
+    color: #fefefe;
+}
+
+.header-btn:focus {
+    border: none;
+    background-color: green;
+    color: #fefefe;
+}
+
+.header-right-buttons {
+    margin: 3rem 0 2.5rem 0;
+}
+
+.header-icon {
+    margin-right: 1.5rem;
+}
+
+
+
+/* ===============================  media  ================================================ */
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px){
+    
+}
+
+@media(min-width: 576px){
+    
 }
