@@ -1,0 +1,35 @@
+body {
+	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    /* min-width: 406px; */
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.selector-for-some-widget {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* ================================  header  ======================================= */
+.header {
+    padding: 5rem 0;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-slider, .header-right {
+    display: inline-flexbox;
+}
