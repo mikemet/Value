@@ -44,6 +44,18 @@ body {
     padding-right: 0.5rem;
 }
 
+.header-carousel .carousel-inner {
+    padding-bottom: 3rem;
+}
+
+.carousel-indicators li {
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 2px solid #35c144;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
 .header-right {
     flex-direction: column;
     padding-left: 2rem;
