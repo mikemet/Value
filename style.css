@@ -40,9 +40,9 @@ body {
 }
 
 .header-slider {
-    width: 38.5%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 18rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .header-carousel .carousel-inner {
@@ -64,7 +64,8 @@ body {
 
 .header-right-title {
     display: flex;
-    align-items: center;
+    justify-items: stretch;
+    /* align-items: center; */
     margin: 7.5rem 0 4.5rem 0;
 
     font-size: 1.7rem;
@@ -72,8 +73,8 @@ body {
 
 .logo {
     margin-right: 1rem;
-    width: 5rem;
-    height: 5rem;
+    width: 20%;
+    height: 20%;
 }
 
 .header-right p {
