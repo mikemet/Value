@@ -104,9 +104,14 @@ body {
     margin: 3rem 0 2.5rem 0;
 }
 
-.header-icon {
+.header-right-icon-link {
     margin-right: 1.5rem;
+    color: #98d361;
 }
+
+    .header-right-icon-link:hover {
+        color:#35c144;
+    }
 
 
 
