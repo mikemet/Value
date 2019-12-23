@@ -56,6 +56,20 @@ body {
     background-color: transparent;
 }
 
+/* .item-responsive {
+    position: relative;
+}
+
+.item-responsive::before {
+    display: block;
+    content: "";
+    width: 100%;
+}
+
+.item-16by9 {
+    padding-top: 56.25%;
+} */
+
 .header-right {
     flex-direction: column;
     padding-left: 2rem;
