@@ -118,8 +118,28 @@ body {
 
 /* =================================  landing  ============================================== */
 .landing {
-    background-color: #98d361;
-    color: #ffffff;
+	text-align: center;
+	background-color: #98d361;
+	color: #ffffff;
+}
+
+.landing-header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.landing-content {
+	display: inline-flex;
+}
+
+.landing-content-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.landing-content-item img {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* ===============================  media  ================================================ */
