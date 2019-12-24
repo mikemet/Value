@@ -1,14 +1,14 @@
 html {
-    line-height: normal;
-    font-size: 1rem;
+	line-height: normal;
+	font-size: 1rem;
 }
 
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
-    min-width: 540px;
-    padding: 0;
+	min-width: 540px;
+	padding: 0;
 
-    color: #979797;
+	color: #979797;
 }
 
 .clearfix::after {
@@ -20,6 +20,7 @@ body {
 .container {
 	padding-right: 0;
 	padding-left: 0;
+	outline: 2px solid salmon;
 }
 
 .selector-for-some-widget {
@@ -30,102 +31,103 @@ body {
 
 /* ================================  header  ======================================= */
 .header {
-    padding: 5rem 0;
+	padding: 5rem 0;
 }
 
 .header-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .header-slider {
-    width: 18rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+	width: 18rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .header-carousel .carousel-inner {
-    padding-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .carousel-indicators li {
-    width: 0.5rem;
-    height: 0.5rem;
-    border: 2px solid #35c144;
-    border-radius: 50%;
-    background-color: transparent;
+	width: 0.5rem;
+	height: 0.5rem;
+	border: 2px solid #35c144;
+	border-radius: 50%;
+	background-color: transparent;
 }
 
 .header-right {
-    flex-direction: column;
-    padding-left: 2rem;
+	flex-direction: column;
+	padding-left: 2rem;
 }
 
 .header-right-title {
-    display: flex;
-    justify-items: stretch;
-    /* align-items: center; */
-    margin: 7.5rem 0 4.5rem 0;
+	display: flex;
+	justify-items: stretch;
+	/* align-items: center; */
+	margin: 7.5rem 0 4.5rem 0;
 
-    font-size: 1.7rem;
+	font-size: 1.7rem;
 }
 
 .logo {
-    margin-right: 1rem;
-    width: 20%;
-    height: 20%;
+	margin-right: 1rem;
+	width: 20%;
+	height: 20%;
 }
 
 .header-right p {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 .header-btn {
-    background-color: #b9b9b9;
-    border-radius: 1rem;
-    width: 9rem;
+	background-color: #b9b9b9;
+	border-radius: 1rem;
+	width: 9rem;
 
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #fefefe;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #fefefe;
 }
 
 .header-btn:hover {
-    background-color: #35c144;
-    color: #fefefe;
+	background-color: #35c144;
+	color: #fefefe;
 }
 
 .header-btn:focus {
-    border: none;
-    background-color: green;
-    color: #fefefe;
+	border: none;
+	background-color: green;
+	color: #fefefe;
 }
 
 .header-right-buttons {
-    margin: 3rem 0 2.5rem 0;
+	margin: 3rem 0 2.5rem 0;
 }
 
 .header-right-icon-link {
-    margin-right: 1.5rem;
-    color: #98d361;
+	margin-right: 1.5rem;
+	color: #98d361;
 }
 
-    .header-right-icon-link:hover {
-        color:#35c144;
-    }
+.header-right-icon-link:hover {
+	color: #35c144;
+}
 
-
+/* =================================  landing  ============================================== */
+.landing {
+    background-color: #98d361;
+    color: #ffffff;
+}
 
 /* ===============================  media  ================================================ */
-@media(min-width: 992px){
-
+@media (min-width: 992px) {
 }
 
-@media(min-width: 768px){
-    
+@media (min-width: 768px) {
 }
 
-@media(min-width: 576px){
-    
+@media (min-width: 576px) {
 }
