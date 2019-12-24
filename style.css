@@ -32,7 +32,7 @@ body {
 
 /* ================================  header  ======================================= */
 .header {
-	padding: 5rem 0;
+	padding: 2rem 0;
 }
 
 .header-row {
@@ -60,15 +60,13 @@ body {
 }
 
 .header-right {
-	flex-direction: column;
 	padding-left: 2rem;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .header-right-title {
-	display: flex;
-	justify-items: stretch;
-	/* align-items: center; */
-	margin: 7.5rem 0 4.5rem 0;
+	margin-bottom: 4rem;
 
 	font-size: 1.7rem;
 }
@@ -128,6 +126,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 3rem;
+	padding-bottom: 2rem;
 }
 
 .landing-header span {
@@ -135,7 +134,7 @@ body {
 }
 
 .landing-header p {
-	margin-top: 1.8rem;
+	margin-top: 1.2rem;
 }
 
 .landing-content {
