@@ -162,6 +162,45 @@ body {
 	padding-top: 1rem;
 }
 
+/* ====================================  features  ============================================= */
+.features {
+	background-color: #f8f8f8;
+}
+
+.features-row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.features-slider {
+
+}
+
+.features-right {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.features-title {
+	margin-bottom: 2.5rem;
+}
+
+.feature-item {
+	margin-bottom: 2rem;
+}
+
+.feature-item:last-child {
+	margin-bottom: 0;
+}
+
+.feature-item img {
+	float: left;
+	margin-right: 1rem;
+}
+
+.features-content {
+	float: right;
+}
 /* ===============================  media  ================================================ */
 @media (min-width: 992px) {
 }
