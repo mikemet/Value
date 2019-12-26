@@ -130,11 +130,13 @@ body {
 }
 
 .landing-header span {
-	font-size: 1.3rem;
+	font-size: 1.8rem;
 }
 
 .landing-header p {
-	margin-top: 1.2rem;
+	margin-top: 1.5rem;
+
+	font-size: 1rem;
 }
 
 .landing-content {
@@ -145,7 +147,7 @@ body {
 .landing-content-item {
 	display: flex;
 	flex-direction: column;
-	padding: 0 0.2rem;
+	padding: 0 2rem;
 }
 
 .landing-content-item img {
