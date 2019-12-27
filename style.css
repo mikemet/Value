@@ -224,6 +224,58 @@ body {
 	font-size: 1rem;
 }
 
+/* =================================  footer  ============================================== */
+.footer-row {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.social, .copyright {
+	display: inline-flex;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+}
+
+.social {
+	margin-top: 1.5rem;
+
+	font-size: 2rem;
+}
+
+.social a {
+	padding-right: 3rem;
+	color: #a8aeae;
+}
+
+.social a:last-child {
+	padding-right: 0;
+}
+
+.copyright a {
+	padding: 0 1rem ;
+	color: #a8aeae;
+}
+
+.copyright a:hover {
+	color: #6b6b6b;
+}
+
+#twitter-icon:hover {
+	color: #00acee;
+}
+
+#facebook-icon:hover {
+	color: #3b5998;
+}
+
+#vimeo-icon:hover {
+	color:  #4185BE;
+}
+
+#pinterest-icon:hover {
+	color: #CB2027;
+}
 /* ===============================  media  ================================================ */
 @media (min-width: 992px) {
 }
