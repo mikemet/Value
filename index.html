@@ -113,7 +113,35 @@
         <div class="container">
             <div class="row features-row">
                 <div class="features-slider">
-                    <img src="/image/slider21.png" class="img-fluid" alt="">
+                    <!-- Bootstrap 4 -->
+                    <div id="features-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                        <!-- Индикаторы -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#features-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#features-slider" data-slide-to="1"></li>
+                            <li data-target="#features-slider" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-fluid" src="image/slider21.png" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="image/slider22.png" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="image/slider23.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Элементы управления -->
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Предыдущий</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Следующий</span>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="features-right">
