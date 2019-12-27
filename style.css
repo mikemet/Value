@@ -174,12 +174,6 @@ body {
 	justify-content: space-around;
 }
 
-.carousel-item {
-	/*background: rgb(199, 221, 184);  Цвет фона */
-    box-shadow: 0 0 10px rgba(-2,-2,5,0.8); /* Параметры тени */
-    padding: 10px;
-}
-
 .features-right {
 	margin-top: auto;
 	margin-bottom: auto;
