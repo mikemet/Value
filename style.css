@@ -252,7 +252,7 @@ body {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	margin-right: 3rem;
+	margin-right: 5rem;
 }
 
 .testimonials-gallery-item:last-child {
