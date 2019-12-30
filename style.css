@@ -226,10 +226,6 @@ body {
 }
 
 /* =====================================  notify  ========================================== */
-
-.notify {
-}
-
 .notify-content {
 	display: flex;
 	flex-direction: column;
