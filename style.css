@@ -37,7 +37,7 @@ body {
 
 .header-row {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .header-right {
-	padding-left: 2rem;
+	padding-left: 6rem;
 	margin-top: auto;
 	margin-bottom: auto;
 }
