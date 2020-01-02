@@ -165,7 +165,9 @@ body {
 }
 
 /* ====================================  features  ============================================= */
-
+.features {
+	padding: 3rem 0;
+}
 .features,
 .notify {
 	background-color: #f8f8f8;
