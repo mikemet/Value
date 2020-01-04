@@ -79,7 +79,7 @@ body {
 }
 
 .header-right p {
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .header-btn {
@@ -175,19 +175,11 @@ body {
 
 .features-row {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 
-#features-slider {
-}
-
-#features-slider .carousel-item img {
-	/* width: 90%;
-	height: 90%; */
-}
-
-#features-slider .carousel-inner {
-	/* justify-content: space-around; */
+.features-left img {
+	width: 70%;
 }
 
 .features-right {
