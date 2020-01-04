@@ -20,7 +20,6 @@ body {
 .container {
 	padding-right: 0;
 	padding-left: 0;
-	outline: 2px solid salmon;
 }
 
 .selector-for-some-widget {
