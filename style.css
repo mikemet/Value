@@ -390,6 +390,12 @@ form {
 @media (min-width: 992px) {
 }
 
+@media (min-width: 769px) {
+	.features-left img {
+		margin-bottom: 2rem;
+	}
+}
+
 @media (max-width: 768px) {
 	.header-right {
 		padding-left: 2rem;
