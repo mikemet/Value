@@ -1,0 +1,88 @@
+.header {
+    padding: 2rem 0;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+#features-slider {
+    width: 17.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header-carousel .carousel-inner,
+#features-slider .carousel-inner {
+    padding-bottom: 3rem;
+}
+
+.header-carousel {
+    justify-content: center;
+}
+
+.carousel-inner {
+    width: 45%;
+}
+
+.carousel-indicators li {
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 2px solid #35c144;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.header-right {
+    padding-left: 6rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-right-title {
+    margin-bottom: 4rem;
+    font-size: 1.7rem;
+}
+
+.logo {
+    margin-right: 1rem;
+    width: 20%;
+    height: 20%;
+}
+
+.header-right p {
+    font-size: 1.2rem;
+}
+
+.header-btn {
+    background-color: #b9b9b9;
+    border-radius: 1rem;
+    width: 9rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fefefe;
+}
+
+.header-btn:hover {
+    background-color: #35c144;
+    color: #fefefe;
+}
+
+.header-btn:focus {
+    border: none;
+    background-color: green;
+    color: #fefefe;
+}
+
+.header-right-buttons {
+    margin: 3rem 0 2.5rem 0;
+}
+
+.header-right-icon-link {
+    color: #98d361;
+}
+
+.header-right-icon-link:hover {
+    color: #35c144;
+}
