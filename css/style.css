@@ -1,5 +1,6 @@
 @import url('blocks/header.css');
 @import url('blocks/landing.css');
+@import url('blocks/features.css');
 
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
@@ -30,66 +31,7 @@ img {
 /* ================================  header  ======================================= */
 /* =================================  landing  ============================================== */
 /* ====================================  features  ============================================= */
-.features {
-	padding: 3rem 0;
-}
 
-.features,
-.notify {
-	background-color: #f8f8f8;
-}
-
-.features-row {
-	display: flex;
-	justify-content: space-around;
-}
-
-.features-left {
-	display: flex;
-	justify-content: center;
-}
-
-.features-left img {
-	width: 50%;
-	box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
-}
-
-.features-right {
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-.features-title {
-	margin-bottom: 2.2rem;
-	font-size: 1.5rem;
-	color: #6b6b6b;
-}
-
-.feature-item {
-	margin-bottom: 2rem;
-}
-
-.feature-item:last-child {
-	margin-bottom: 0;
-}
-
-.feature-item img {
-	float: left;
-	margin-right: 1rem;
-}
-
-.feature-item span {
-	color: #97c071;
-}
-
-.feature-item p {
-	color: #6b6b6b;
-}
-
-.feature-item span,
-.feature-item p {
-	font-size: 1rem;
-}
 
 /* =======================================  testimonials  =================================== */
 .testimonials {
