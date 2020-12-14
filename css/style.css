@@ -1,4 +1,5 @@
 @import url('blocks/header.css');
+@import url('blocks/landing.css');
 
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
@@ -28,54 +29,6 @@ img {
 
 /* ================================  header  ======================================= */
 /* =================================  landing  ============================================== */
-
-.landing {
-	text-align: center;
-	background-color: #98d361;
-	color: #ffffff;
-}
-
-.landing-header {
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 3rem;
-	padding-bottom: 2rem;
-}
-
-.landing-header span {
-	font-size: 1.8rem;
-}
-
-.landing-header p {
-	margin-top: 1.5rem;
-	font-size: 1rem;
-}
-
-.landing-content {
-	display: inline-flex;
-	padding-bottom: 3rem;
-}
-
-.landing-content-item {
-	display: flex;
-	flex-direction: column;
-	padding: 0 2rem;
-}
-
-.landing-content-item img {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 1rem;
-}
-
-.landing-content-item span {
-	font-size: 1rem;
-}
-
-.landing-content-item p {
-	padding-top: 1rem;
-}
-
 /* ====================================  features  ============================================= */
 .features {
 	padding: 3rem 0;
