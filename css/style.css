@@ -1,13 +1,9 @@
 @import url('blocks/header.css');
 
-html {
-	line-height: normal;
-	font-size: 1rem;
-}
-
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
-	font-size: 0.8rem;
+	font-size: 1rem;
+	line-height: normal;
 	min-width: 320px;
 	padding: 0;
 	color: #979797;
@@ -22,11 +18,6 @@ img {
 	content: '';
 	display: table;
 	clear: both;
-}
-
-.container {
-	padding-right: 0;
-	padding-left: 0;
 }
 
 .selector-for-some-widget {
@@ -335,9 +326,9 @@ img {
 
 @media (max-width: 576px) {
 
-	.header-right {
+	/* .header-right {
 		padding-left: 0;
-	}
+	} */
 
 	.features-right {
 		padding-left: 1rem;
