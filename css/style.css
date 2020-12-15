@@ -1,6 +1,7 @@
 @import url('blocks/header.css');
 @import url('blocks/landing.css');
 @import url('blocks/features.css');
+@import url('blocks/testimonials.css');
 
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
