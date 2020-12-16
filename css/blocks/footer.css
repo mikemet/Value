@@ -55,8 +55,15 @@
     .social {
         font-size: 1.5rem;
     }
-}
 
-@media (max-width: 576px) {}
+    .copyright {
+        font-size: 0.8rem;
+    }
 
-@media (max-width: 768px) {}
+    .copyright a {
+        padding: 0 0.3rem;
+    }
+
+    @media (max-width: 576px) {}
+
+    @media (max-width: 768px) {}
