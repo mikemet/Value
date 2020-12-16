@@ -3,6 +3,7 @@
 @import url('blocks/features.css');
 @import url('blocks/testimonials.css');
 @import url('blocks/notify.css');
+@import url('blocks/footer.css');
 
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
@@ -37,57 +38,6 @@ img {
 /* =====================================  notify  ========================================== */
 /* =================================  footer  ============================================== */
 
-.footer-row {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.social,
-.copyright {
-	display: inline-flex;
-	justify-content: center;
-	margin-bottom: 1.5rem;
-}
-
-.social {
-	margin-top: 1.5rem;
-	font-size: 2rem;
-}
-
-.social a {
-	padding-right: 3rem;
-	color: #a8aeae;
-}
-
-.social a:last-child {
-	padding-right: 0;
-}
-
-.copyright a {
-	padding: 0 1rem;
-	color: #a8aeae;
-}
-
-.copyright a:hover {
-	color: #6b6b6b;
-}
-
-#twitter-icon:hover {
-	color: #00acee;
-}
-
-#facebook-icon:hover {
-	color: #3b5998;
-}
-
-#vimeo-icon:hover {
-	color: #4185be;
-}
-
-#pinterest-icon:hover {
-	color: #cb2027;
-}
 
 /* ===============================  media  ================================================ */
 
