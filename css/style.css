@@ -2,6 +2,7 @@
 @import url('blocks/landing.css');
 @import url('blocks/features.css');
 @import url('blocks/testimonials.css');
+@import url('blocks/notify.css');
 
 body {
 	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
@@ -34,64 +35,6 @@ img {
 /* ====================================  features  ============================================= */
 /* =======================================  testimonials  =================================== */
 /* =====================================  notify  ========================================== */
-.notify-content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 3rem 0;
-}
-
-.notify-content img,
-.notify-content p {
-	margin-bottom: 2rem;
-}
-
-.notify-content span {
-	margin-bottom: 0.5rem;
-	font-size: 1.5rem;
-}
-
-.notify-content p {
-	font-size: 1rem;
-}
-
-/* ===================  form  ========================= */
-.form-inline {
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.form-input {
-	border-top-left-radius: 1.5rem;
-	border-bottom-left-radius: 1.5rem;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-	padding: 1.5rem 5rem 1.5rem 1.5rem;
-	font-size: 1rem;
-}
-
-.btn-notify {
-	border: none;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-	border-top-right-radius: 1.5rem;
-	border-bottom-right-radius: 1.5rem;
-	padding: 0.7rem 2rem;
-	background-color: #98d361;
-
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-		'Helvetica Neue', sans-serif;
-	font-size: 1.1rem;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.btn-notify:hover {
-	background-color: #76b839;
-}
-
 /* =================================  footer  ============================================== */
 
 .footer-row {
@@ -161,27 +104,11 @@ img {
 	.features-left img {
 		margin-bottom: 2rem;
 	}
-
-	.form-input {
-		padding: 1.5rem 12rem 1.5rem 1.5rem;
-	}
 }
 
 @media (max-width: 576px) {
 
-	/* .header-right {
-		padding-left: 0;
-	} */
-
 	.features-right {
 		padding-left: 1rem;
-	}
-
-	.form-input {
-		padding: 1.5rem 4rem 1.5rem 1.5rem;
-	}
-
-	.btn-notify {
-		margin-top: -1rem;
 	}
 }
