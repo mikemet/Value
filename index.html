@@ -16,7 +16,27 @@
     <section class="header py-3">
         <div class="container">
             <div class="row">
-                <div class="header-right col-12 col-md-6">
+                <div id="carousel" class="carousel slide col-12 col-md-6 header-carousel" data-ride="carousel"
+                    role="slider">
+                    <div class="carousel-inner mb-md-5 text-center" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="image/header-slider_1.png" alt=" ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/header-slider_2.png" alt=" ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/header-slider_3.png" alt=" ">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+
+                <div class="header-right col-12 col-md-6 py-5">
                     <div class="header-right-title mb-3">
                         <img src="image/logo.png"
                             class="logo ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
@@ -39,26 +59,6 @@
                             <li class="fab fa-windows fa-2x"></li>
                         </a>
                     </div>
-                </div>
-
-                <div id="carousel" class="carousel slide col-12 col-md-6 header-carousel" data-ride="carousel"
-                    role="slider">
-                    <div class="carousel-inner mb-md-5 text-center" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="image/header-slider_1.png" alt=" ">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="image/header-slider_2.png" alt=" ">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="image/header-slider_3.png" alt=" ">
-                        </div>
-                    </div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                    </ol>
                 </div>
             </div>
         </div>
