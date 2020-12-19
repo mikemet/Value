@@ -5,7 +5,6 @@
     margin-left: auto;
     margin-right: auto;
     padding: 3rem 0;
-    /* outline: 1px solid red; */
 }
 
 .notify-content img,
@@ -83,17 +82,7 @@
         padding: 0 2rem;
     }
 
-    .form-input {
-        /* padding: 1.5rem 4rem 1.5rem 1.5rem; */
-    }
-
     .btn-notify {
         margin-top: -1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .form-input {
-        /* padding: 1.5rem 12rem 1.5rem 1.5rem; */
     }
 }
